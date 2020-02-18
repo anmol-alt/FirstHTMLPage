@@ -19,3 +19,31 @@
         git push -u origin master
     </li>
 </ol>
+
+<h2>
+    For a pull request
+</h2>
+
+<ol>
+    <li>
+        Fork repository
+    </li>
+    <li>
+        git clone forked-repository-url
+    </li>
+    <li>
+        Do changes
+    </li>
+    <li>
+        git add .
+    </li>
+        <li>
+        git commit -m "message"
+    </li>
+    <li>
+        git push
+    </li>
+    <li>
+        Pull Request on cloud base repository
+    </li>
+</ol>
