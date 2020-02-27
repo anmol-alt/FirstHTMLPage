@@ -21,7 +21,7 @@
 </ol>
 
 <h2> 
-    Github pages <a href="https://alfredo08.github.io/FirstHTMLPage/"> link </a> 
+    Github pages <a href="https://alfredo08.github.io/FirstHTMLPage/" target="_blank"> link </a> 
 </h2>
 
 
