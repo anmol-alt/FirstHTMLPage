@@ -2,50 +2,45 @@
 
 <html lang="en">
   <head>
-      <title>Restaurant Menu</title>
+      <title>Restauraunt Menu</title>
       <meta charset="UTF-8" />
+      <link href="./css/index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-        <nav>
-            <ul>
-              <li class="menu">
-                <a href='/index.html'>
-                  Home
-                </a>
-              </li>
-              <li class="menu">
-                <a href='/about.html'>
-                  About
-                </a>
-              </li>
-              <li class="menu">
-                <a href='/review.html'>
-                  Reviews
-                </a>
-              </li>
-            </ul>
-        </nav>
+      <h2> 
+        Welcome to our menu! 
+      </h2>
     </header>
+    <nav>
+        <ul>
+          <li class="menu">
+              Home
+          </li>
+          <li class="menu">
+              About
+          </li>
+          <li class="menu">
+              Reviews
+          </li>
+        </ul>
+    </nav>
     <aside>
       <p>
         This is the sidebar!
       </p>
     </aside>
-    <h2> 
-      Welcome to our menu! 
-    </h2>
     <section>
       <table>
         <thead>
             <tr>
-                <th>
+                <th class="theading">
                   Food
                 </th>
-                <th>
+                <th class="theading">
                   Description
                 </th>
-                <th>
+                <th class="theading">
                   Price
                 </th>
             </tr>
@@ -132,27 +127,27 @@
 
           <span> We won't share this information </span>
 
-          <div>
+          <div class="optionContainer">
             <label for="firstName"> First name : </label> 
             <input type="text" id="firstName" class="formElement">
           </div>
-          <div>
+          <div class="optionContainer">
             <label for="lastName"> Last name : </label>
             <input type="text" id="lastName" class="formElement">
           </div>
-          <div>
+          <div class="optionContainer">
             <label for="email"> Email : </label>
             <input type="email" id="email" class="formElement">
           </div>
-          <div>
+          <div class="optionContainer">
             <label for="phoneNumber"> Phone number : </label>
             <input type="tel" id="phoneNumber" class="formElement">
           </div>
-          <div>
+          <div class="optionContainer">
             <p>
               Rate us:
             </p>
-            <select name="rate">
+            <select name="rate" id="rate">
                 <option value="very_good">Very good</option>
                 <option value="good">Good</option>
                 <option value="okay">Okay</option>
@@ -160,13 +155,13 @@
                 <option value="bad">Bad</option>
             </select>
           </div>
-          <div>
+          <div class="optionContainer">
             <p>
               Your comment:
             </p>
             <textarea cols="50" rows="4"></textarea>
           </div>
-          <div>
+          <div class="optionContainer">
             <p>
               Would you visit us again?
             </p>
@@ -179,11 +174,11 @@
               <input type="radio" name="visit" id="noVisit">
             </div>
           </div>
-          <div>
-            <button type="submit" id="resetButton" class="clickable">
+          <div class="optionContainer">
+            <button type="submit" id="resetButton" class="clickable reset-btn">
               Reset
             </button>
-            <button type="submit" id="submitButton" class="clickable">
+            <button type="submit" id="submitButton" class="clickable submit-btn">
               Submit
             </button>
           </div>
