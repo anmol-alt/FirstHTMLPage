@@ -14,13 +14,13 @@
     </header>
     <nav>
         <ul>
-          <li class="menu">
+          <li class="menu activeOption" id="home">
               Home
           </li>
-          <li class="menu">
+          <li class="menu" id="about">
               About
           </li>
-          <li class="menu">
+          <li class="menu" id="reviews">
               Reviews
           </li>
         </ul>
@@ -30,7 +30,7 @@
         This is the sidebar!
       </p>
     </aside>
-    <section>
+    <section class="homeSection selectedSection">
       <table>
         <thead>
             <tr>
@@ -118,7 +118,7 @@
         </tbody>
       </table>
     </section>
-    <section>
+    <section class="reviewsSection hidden">
       <form>
         <fieldset>
           <legend>
@@ -185,9 +185,15 @@
         </fieldset>
       </form>
     </section>
+    <section class="aboutSection hidden">
+      <h1>
+        The about section is under maintainance
+      </h1>
+    </section>
     <footer>
       This is where any content in the footer would go
     </footer>
+    <script src="./js/index.js" type="text/javascript"></script>
   </body>
 </html>
 
