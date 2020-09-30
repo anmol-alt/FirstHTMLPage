@@ -1,3 +1,6 @@
+/*body section starts here  */
+
+
 body{
     font-family : Verdana, sans-serif;
     font-size : 14px;
@@ -14,7 +17,7 @@ body{
     color : white;
     padding : 20px;
   }
-  
+/*  body section ends here  */
   fieldset{
     border : 2px dashed #DDDDDD;
     margin : 20px;
